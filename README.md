@@ -1,4 +1,4 @@
-## Install Tau
+## Install Tau on Cori
 
 - Download the TAUv2.28.1 from tau.uoregon.edu/tau.tgz
 - Unpack in your home
