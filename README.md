@@ -17,6 +17,16 @@ module unload darshan
 export PATH=/path/to/tau-2.28.1/craycnl/bin:$PATH 
 ```
 
+## Build, Run, and Profile a C++ Example
+
+```
+CC -g -dynamic zdravo.cc -o zdravo
+salloc -N 1 -q debug -C knl -t 00:10:00
+srun -n 1 tau_exec -ebs ./zdravo
+```
+
+This produces `profile.0.0.0`.
+
 ## Build, Run, and Profile Fortran/C Example
 
 ```
