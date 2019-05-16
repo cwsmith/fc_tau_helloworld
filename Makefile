@@ -1,11 +1,11 @@
 FC=ftn
-FCFLAGS=-g -dynamic 
+FCFLAGS=-g
 CXX=CC
-CXXFLAGS=-g -dynamic
+CXXFLAGS=-g
 C=cc
-CFLAGS=-g -dynamic
+CFLAGS=-g
 TARGET=fc_simple
-LDFLAGS=-lstdc++
+LDFLAGS=-lstdc++ -dynamic
 DEBUG=-g
 
 OBJS=fcapi.o capi.o
