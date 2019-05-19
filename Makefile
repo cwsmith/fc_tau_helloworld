@@ -1,7 +1,7 @@
 FC=ftn
 FCFLAGS=-g
 CXX=CC
-CXXFLAGS=-g
+CXXFLAGS=-g -std=c++11
 C=cc
 CFLAGS=-g
 TARGET=fc_simple

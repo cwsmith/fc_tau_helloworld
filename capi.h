@@ -3,5 +3,7 @@
 extern "C"
 {
 int pass_by_val(int);
+int multimap_stats();
+void reduce(int);
 }
 #endif
